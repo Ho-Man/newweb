@@ -8,7 +8,7 @@
     <meta name="generator" content="Hugo 0.82.0">
     <title>Add customer</title>
      <!-- WebIcon -->
-  <link rel="icon" href="assets/img/Logo_T&M.png">
+  <link rel="icon" href="assets/img/Logo.jpg">
     <script src="https://kit.fontawesome.com/a2c5b72efa.js" crossorigin="anonymous"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -173,13 +173,13 @@ if(isset($_POST["btn_add"]))
               <div class="col">
                 <div class="form-outline">
                   <label class="form-label" for="pass1">Password</label>
-                  <input name="pass1" type="password" id="pass1" class="form-control" placeholder="Password"/>
+                  <input name="pass1" type="password" id="pass1" class="form-control" placeholder="password"/>
                 </div>
               </div>
               <div class="col">
                 <div class="form-outline">
                   <label class="form-label" for="pass2">Confirm Password</label>
-                  <input name="pass2" type="password" id="pass2" class="form-control" placeholder="Password" />
+                  <input name="pass2" type="password" id="pass2" class="form-control" placeholder="password" />
                 </div>
               </div>
             </div>
@@ -187,12 +187,12 @@ if(isset($_POST["btn_add"]))
             <!-- Text input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="fullname">Full Name</label>
-              <input name="fullname" type="text" id="fullname" class="form-control" placeholder="FullName"/>
+              <input name="fullname" type="text" id="fullname" class="form-control" placeholder="fullname"/>
             </div>
             <!-- Email input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="email">Email</label>
-              <input name="email" type="email" id="email" class="form-control" placeholder="Email"/>
+              <input name="email" type="email" id="email" class="form-control" placeholder="email"/>
             </div>
           
             <!-- Number input -->
@@ -200,7 +200,7 @@ if(isset($_POST["btn_add"]))
               <div class="col">
                 <div class="form-outline">
                   <label class="form-label" for="phone">Phone</label>
-                  <input name="phone" type="tel" id="phone" class="form-control" placeholder="Phone"/>
+                  <input name="phone" type="tel" id="phone" class="form-control" placeholder="phone"/>
                 </div>
               </div>
               <div class="col">

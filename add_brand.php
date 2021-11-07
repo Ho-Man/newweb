@@ -8,7 +8,7 @@
     <meta name="generator" content="Hugo 0.82.0">
     <title>Add Brand</title>
      <!-- WebIcon -->
-  <link rel="icon" href="assets/img/Logo_T&M.png">
+  <link rel="icon" href="assets/img/Logo.jpg">
     <script src="https://kit.fontawesome.com/a2c5b72efa.js" crossorigin="anonymous"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -140,7 +140,7 @@ if(isset($_POST["btn_add"]))
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="brandname">BrandName</label>
-                <input name="brandname" type="text" id="brandname" class="form-control" placeholder="brandName"/>
+                <input name="brandname" type="text" id="brandname" class="form-control" placeholder="brandname"/>
               </div>
             
             <!-- Submit button -->

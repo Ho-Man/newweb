@@ -90,26 +90,22 @@ session_start();
       <div class="container">
         <div class="row">
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/MacBook_Logo.png" class="img-fluid" alt="">
+            <img src="assets/img/Logoice.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/Lenovo-logo.png" class="img-fluid" alt="">
+            <img src="assets/img/logonham.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 " data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/img/HP_logo.png" class="img-fluid" alt="">
+            <img src="assets/img/logonuoc.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="400">
-            <img src="assets/img/Dell_logo.png" class="img-fluid" alt="">
+            <img src="assets/img/logophong.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
-            <img src="assets/img/Asus_Logo.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/img/Acer_logo.png" class="img-fluid" alt="">
+            <img src="assets/img/Logoloi.png" class="img-fluid" alt="">
           </div>
         </div>
       </div>
@@ -119,13 +115,13 @@ session_start();
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/Hostdeal_1.png" class="d-block w-100" alt="...">
+            <img src="assets/img/Genshin_Impact_logo.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/Hostdeal_2.png" class="d-block w-100" alt="...">
+            <img src="assets/img/logogen2.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/Hostdeal_3.png" class="d-block w-100" alt="...">
+            <img src="assets/img/Genshin_Impact_logo.png" class="d-block w-100" alt="...">
           </div>
         </div>
       </div>
@@ -141,7 +137,7 @@ session_start();
             include_once('connection.php');
             $No=1;
             $result=pg_query($conn,"Select * from product");
-            while($row=pg_fetch_array($result,PG_ASSOC))
+            while($row=pg_fetch_array($result,PGSQL_ASSOC))
             {
             ?>
             <div class="col-lg-3 col-md-6 portfolio-item">
